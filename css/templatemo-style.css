@@ -134,7 +134,7 @@ hr {
   border: 1px solid #666;
   border-radius: 2px;
   text-align: center;
-  padding: 80px 40px 80px 40px;
+  padding: 80px 40px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
@@ -362,6 +362,15 @@ input { height: 50px; }
   color: #25D366; /* Cor do ícone */
 }
 
+.equal-height-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal-height-col {
+  display: flex;
+  flex: 1;
+}
 
 
 
